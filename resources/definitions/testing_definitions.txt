@@ -1,0 +1,87 @@
+
+# Level 1
+# 2 balls with a triangle
+
+START_LEVEL
+level_name:triangle
+ball_velocities:45,2000 50,2000 55,2000
+background:image(background_images/level_1_bg.jpg)
+paddle_speed:1300
+paddle_width:160
+block_definitions:definitions/triangle_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:40
+num_blocks:103
+START_BLOCKS
+------rrr
+------rrrrrr
+------rrrrrrrrr
+------rrrrrrrrrrrr
+------rrrrrrrrrrrrrr
+------rrrrrrrrrrrrrrrrr
+------rrrrrrrrrrrrrr
+------rrrrrrrrrrrr
+------rrrrrrrrr
+------rrrrrrr
+
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with 3 balls
+
+START_LEVEL
+level_name: Lady In The Ocean
+ball_velocities:-80,2000 0,2000 80,2000
+background:image(background_images/level_2_bg.jpg)
+paddle_speed:1000
+paddle_width:300
+block_definitions:definitions/ocean_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:30
+num_blocks:54
+START_BLOCKS
+-
+-
+---sss--mmm--sss
+---sss----------sss
+---sss----------sss
+---sss----------sss
+---sss--mmm--sss
+---sss----------sss
+---sss----------sss
+---sss----------sss
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# manchester united
+
+START_LEVEL
+level_name:Glory Glory
+ball_velocities:45,2000 -45,2000
+background:image(background_images/Manchester_United.jpg)
+paddle_speed:1400
+paddle_width:180
+block_definitions:definitions/mufc_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:40
+num_blocks:99
+START_BLOCKS
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+--kkkkkkkkkkk
+
+END_BLOCKS
+END_LEVEL

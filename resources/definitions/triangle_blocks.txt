@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:r width:25 height:40 hit_points:3 fill-1:color(RGB(170,246,155)) fill-3:color(RGB(246,197,151)) fill-2:color(RGB(246,59,105))
+
+# spacers definitions
+sdef symbol:- width:25

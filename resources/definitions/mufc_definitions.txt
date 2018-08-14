@@ -1,0 +1,5 @@
+# block definitions
+bdef symbol:k width:60 height:40 hit_points:1 fill:image(block_images/united.jpg)
+
+# spacers definitions
+sdef symbol:- width:25

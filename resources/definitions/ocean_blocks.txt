@@ -1,0 +1,7 @@
+# block definitions
+bdef symbol:s width:60 height:30 hit_points:2 fill-2:image(block_images/bird.jpg) fill-1:image(block_images/bird.jpg)
+bdef symbol:m width:50 height:150 hit_points:3 fill-3:color(white) fill-2:color(white) fill-1:color(white)
+
+
+# spacers definitions
+sdef symbol:- width:25
